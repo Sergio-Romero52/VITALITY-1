@@ -1,0 +1,205 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: transparent;
+    position: fixed;
+    top: 0px;
+}
+#nav h1{
+    float: left;
+    font-size: 2.5em;
+    margin-left: 15px;
+}
+#nav h1 a{
+    text-decoration: none;
+    color: white;
+}
+#nav ul{
+    float: right;
+}
+#nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#nav ul li:hover{
+    background: #9a6155;
+    transition: all ease-in-out 0.45s;
+}
+#activo{
+    background: #9a6155;
+}
+#contenido-inicio{
+    width: 100%;
+    height: 600px;
+    background: url(../imagenes/background.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: back;
+    line-height: 40px;
+}
+#contenido-inicio h1{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#productos{
+    background: black;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+#productos:hover{
+    box-shadow: 1px 5px 2px 2px rgba(84, 69, 69, 0.53);
+    transition: all ease-in-out 0.45s;
+}
+#productos a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#registrar{
+    background: transparent;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: black;
+    font-weight: 100;
+    border-style: solid;
+    border-width: 2px;
+}
+#registrar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+#elemntos{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+#elemento1{
+    width: 500px;
+    height: 350px;
+    padding: 5px;    
+    display: inline;
+    float: left;
+    margin: 15px;
+    text-align: center;
+}
+#elemento1 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+#footer{
+    width: 100%;
+    height: 150px;
+    background: black;
+    line-height: 150px;
+    float: right;
+}
+#footer h2{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    font-weight: 200;
+}
+#navFooter ul{
+    float: left;    
+}
+#navFooter ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+#navFooter ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+#contenido-login{
+    margin-top: 70px;
+}
+#contenido-login h2{
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    height: auto;
+    width: 12    %;    
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
